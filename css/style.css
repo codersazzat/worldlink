@@ -1,0 +1,368 @@
+.bg-danger{
+    background: #d51c1c !important;
+}
+.bg-secondary{
+    background: #fdf6f6 !important;
+}
+.cust-padd-30{
+    padding: 30px 0px !important;
+}
+.header{
+    background-color: #F9F9F9;
+    padding: 12px 0px;
+    font-size: 14px;
+}
+.header-icon{
+    padding-right: 0px;
+}
+.header-icon a{
+    padding: 5px 8px;
+    background: #dfdada;
+    margin-right: 5px;
+    color: black;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.header-icon a:hover,#navbarNav a:hover{
+    background: red;
+    color:#fff;
+    transition: 0.7s;
+}
+#navbarNav a{
+    color: black;
+    font-size: 13px;
+    font-weight:500;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+#navbarNav a:hover{
+    border-radius: 6px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+.dropdown-menu {
+    margin-top: 1px;
+    width: 250px;
+}
+
+dropdown ul::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    transform: rotate(45deg);
+    background: #1784f1;
+    margin-left: 10px !important;
+    top: 0;
+}
+.dropdown-menu li a{
+    margin-top: -10px;
+    padding: 10px 10px!important;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(61, 60, 60);
+}
+.dropdown-menu li:last-of-type a{
+    margin-bottom: -10px;
+    border: none;
+}
+ .slider{
+    background-image: url('../images/homepage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ } 
+ .slider p, .overview-slider p{
+    padding: 105px 0px;
+    font-size: 48px;
+    letter-spacing: 4px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #ffffff;
+ }
+.content p{
+    line-height: 35px;
+    font-size: 23px;
+}
+.content h6 a, .contact h6 a{
+    padding: 10px 15px;
+    background: #D51C1C;
+    border-radius: 5px;
+}
+.content h6 a:hover{
+    background: #222222;
+    transition: 0.7s;
+}
+.contact h6 a{
+    border-radius: 14px 0px 0px 14px;
+    padding: 13px 18px;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 16px;
+    overflow: hidden;
+}
+.fixed-button {
+    z-index: 4; 
+    top: 49.5%;
+  }
+.what-we-do h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin: 20px 0px 30px 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.what-we-do a{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 9px 23px !important;
+}
+.service h4,.recent-work h4, .slides-content h4, .slides-content a span,.commom-font-family{
+    font-family: 'Montserrat', sans-serif;
+}
+.service{
+    background: #fff;
+    overflow: hidden;
+}
+.service-item{
+    width: 48%;
+    float: left;
+    background: #F7F7F7;
+    border-bottom: 1px solid rgb(216, 208, 208);
+}
+.service-item:hover{
+    background: #ec0d0d;
+    transition: 0.7s;
+}
+.service-item:hover i,.service-item:hover p,.service-item:hover h5{
+    color: white;
+    transition: 0.7s;
+}
+.recent-work{
+    background: #f7f7f7;
+}
+.recent-work ul li a:hover{
+    color: white !important;
+    background: red;
+}
+.gallery-image{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    background: #f10d0d;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+.galary-img-content p{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.slick-dots li button:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid #f30a0a;
+}
+.slides-image{
+    position: relative;
+}
+.overly-slides-content{
+    position: absolute;
+    background: #D51C1C;
+    color: white;
+    left: 0;
+    top: 0;
+    display: block;
+}
+.overly-slides-content span{
+    background: #333333;
+    display: block;
+    font-size: 13px;
+    padding: 0px 5px;
+}
+.slides-content a span{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.slides-content h4{
+    font-weight: 100;
+}
+.slides-content a span:hover{
+    color: #D51C1C;
+    transition: 0.4s;
+}
+.slides-content p{
+    font-size: 14px;
+}
+.telecomunication{
+    background-image: url(../images/img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+.common_background{
+    background: #f7f7f7;
+}
+.telecomunicate-slides h4{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 2rem;
+    text-align: center;
+}
+.telecomunicate-slides p{
+    text-align: center;
+}
+.clients-slides img{
+    height: 120px;
+    width: 200px;
+    background: hsl(0, 33%, 98%);
+    padding: 10px;
+    border-bottom: 2px solid #8D8D8D;
+}
+.footer{
+    background: #343434;
+    position:relative;
+}
+.footer image,h6,a{
+    z-index: 1;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 250px;
+    left: 8%;
+    top: 25%;
+    background-image: url('../images/footer-map.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bottom{
+    background: #212529;
+}
+.bottom p{
+    font-size: 14px ;
+}
+.overview-slider{
+    background-image: url('../images/company-overview.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+ .overview-slider p{
+    font-size: 42px;
+ }
+.first-pera h4,h5{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+}
+.first-pera h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrsat', sans-serif;
+}
+.our-people h6{
+    line-height: 28px;
+}
+.our-people img{
+    height: 228px;
+}
+.history{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.clients h6{
+    font-size: 13px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 30px;
+  color: #413e3e;
+  font-weight: 500; /* Change the font weight to your desired value */
+  opacity: 1 !important; /* Make sure the icons are always visible */
+  pointer-events: auto !important;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 1 !important; /* Ensure the icons remain fully visible on hover */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "";
+  pointer-events: none;
+}
+@media screen and (max-width: 1000px) {
+    .service-item{
+        width: 100%;
+    }
+    .telecomunication{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .slider p, .overview-slider p{
+        padding: 60px 0px;
+     }
+    .clients-slides img{
+        height: 100px;
+        width: 160px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .slider p, .overview-slider p{
+        padding: 50px 0px;
+        line-height: 50px;
+     }
+    .clients-slides img{
+        height: 50px;
+        width: 100px;
+    }
+    .dropdown-menu {
+        width: 450px;
+    }
+    .privacy{
+        margin: -20px;
+    }
+    .bottom{
+        padding: 6px 0px;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .dropdown-menu {
+        width: 390px;
+    }
+    .slider p ,.overview-slider p{
+        padding: 10px 0px;
+        line-height: 50px;
+     }
+    .clients-slides img{
+        height: 50px;
+        width: 70px;
+    }
+    .privacy{
+        margin: -20px;
+    }
+    .bottom{
+        padding: 6px 0px;
+    }
+    
+}
+
